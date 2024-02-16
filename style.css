@@ -1,39 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css?family=Roboto:300");
-html,
-body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-}
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(to right bottom, #873572, black);
-}
-a {
-  display: inline-block;
-  color: lightgrey;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  white-space: nowrap;
-  padding: 12px;
-  border: 1px solid white;
-  border-radius: 30px;
-  text-decoration: none;
-  transition: all 0.15s ease-in-out;
-}
-
-a:hover {
-  background: rgba(0, 0, 0, 0.23);
-  color: white;
-  transform: scale(1.03);
-  text-decoration: none;
-}
-a:active {
-  transform: scale(0.98);
-} */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -45,9 +9,10 @@ a:active {
   text-align: center;
   margin-top: 30px;
 }
-.menu{
+
+.menu {
   border: none;
-  background-color: gray;
+  background-color: rgb(198, 197, 197);
   color: black;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -60,14 +25,12 @@ a:active {
   cursor: pointer;
   background-color: black;
   color: white;
-
 }
 
 .choics {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
 }
 
 .choics .menu {
@@ -111,9 +74,10 @@ img {
   font-size: 12px;
 }
 
-.card .pp{
+.card .pp {
   font-size: 13px;
 }
+
 .card .pp .str-p {
   text-decoration: line-through;
   color: gray;
@@ -130,6 +94,7 @@ img {
   border: none;
   border-radius: 5px;
   width: 100%;
+  cursor: pointer;
 }
 
 .men,
@@ -148,10 +113,10 @@ img {
   .title {
     text-align: center;
     margin-top: 10px;
-    font-size: 20px ;
+    font-size: 20px;
   }
 
-  .menu{
+  .menu {
     height: auto;
     width: auto;
   }
@@ -163,14 +128,14 @@ img {
     font-size: 14px;
     line-height: 20px;
   }
-  
+
   .cards-main {
     width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .card {
     width: 50%;
     display: block;
@@ -179,13 +144,13 @@ img {
     flex-direction: row;
     line-height: 25px;
   }
-  
+
   .card img {
     width: auto;
     height: auto;
     border-radius: 10px;
   }
-  
+
   .atc {
     background-color: black;
     color: white;
@@ -199,21 +164,21 @@ img {
     color: gray;
     font-size: 10px;
   }
-  
-  .card .pp{
+
+  .card .pp {
     font-size: 11px;
   }
-  
+
 }
 
 @media screen and (max-width:1024px) {
   .title {
     text-align: center;
     margin-top: 10px;
-    font-size: 20px ;
+    font-size: 20px;
   }
 
-  .menu{
+  .menu {
     height: auto;
     width: auto;
   }
@@ -225,14 +190,14 @@ img {
     font-size: 14px;
     line-height: 20px;
   }
-  
+
   .cards-main {
     width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .card {
     width: 50%;
     display: block;
@@ -241,13 +206,13 @@ img {
     flex-direction: row;
     line-height: 25px;
   }
-  
+
   .card img {
     width: auto;
     height: auto;
     border-radius: 10px;
   }
-  
+
   .atc {
     background-color: black;
     color: white;
@@ -261,9 +226,8 @@ img {
     color: gray;
     font-size: 10px;
   }
-  
-  .card .pp{
+
+  .card .pp {
     font-size: 11px;
   }
 }
-
