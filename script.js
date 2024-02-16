@@ -18,6 +18,7 @@ function ti1() {
     ch1.style.backgroundColor = "gray"
 
 }
+
 function ti2() {
     var img = document.getElementById("ic-1");
     img.style.opacity = "0";
@@ -26,6 +27,7 @@ function ti2() {
     var img = document.getElementById("ic-3");
     img.style.opacity = "0";
 }
+
 function ti3() {
     var img = document.getElementById("ic-1");
     img.style.opacity = "0";
