@@ -222,7 +222,7 @@ img {
     width: 100%;
   }
 
-  .pn{
+  .pn {
     font-size: 13px;
   }
 
@@ -241,7 +241,7 @@ img {
     text-align: center;
     margin-top: 30px;
   }
-  
+
   .menu {
     border: none;
     background-color: rgb(198, 197, 197);
@@ -252,33 +252,33 @@ img {
     width: auto;
     text-align: center;
   }
-  
+
   .menu:hover {
     cursor: pointer;
     background-color: black;
     color: white;
   }
-  
+
   .choics {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
+
   .choics .menu {
     padding: 5px 50px;
   }
-  
+
   #ic-1 {
     text-align: center;
   }
-  
+
   img {
     max-width: 100%;
     max-height: 300px;
     transition: opacity 0.5s ease-in-out;
   }
-  
+
   .cards-main {
     width: 80%;
     display: flex;
@@ -286,7 +286,7 @@ img {
     justify-content: space-around;
     margin-left: 10%;
   }
-  
+
   .card {
     text-align: center;
     width: 20%;
@@ -294,31 +294,31 @@ img {
     flex-direction: column;
     line-height: 25px;
   }
-  
+
   .card img {
     width: auto;
     height: auto;
     border-radius: 10px;
   }
-  
+
   .card .pn .brand {
     color: gray;
     font-size: 12px;
   }
-  
-  .pp{
+
+  .pp {
     font-size: 12px;
   }
-  
+
   .card .pp .str-p {
     text-decoration: line-through;
     color: gray;
   }
-  
+
   .card .pp .off {
     color: red;
   }
-  
+
   .atc {
     background-color: black;
     color: white;
@@ -328,17 +328,17 @@ img {
     width: 100%;
     cursor: pointer;
   }
-  
+
   .men,
   .women,
   .kids {
     position: absolute;
     width: 100%;
   }
-  
+
   .women,
   .kids {
     opacity: 0;
   }
-  
+
 }
